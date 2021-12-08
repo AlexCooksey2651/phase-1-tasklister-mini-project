@@ -12,6 +12,14 @@
     <form id="create-task-form" action="" method="POST">
       <label for="new-task-description">Add task:</label>
       <input type="text" id="new_task_description" name="new-task-description" placeholder="New Task">
+      <label for="date">Date:</label>
+      <input type="text" id="date" name="date" placeholder="Date">
+      <label for='prioritize'>Prioritize Tasks</label>
+      <select id='prioritize' name='prioritizeTasks'>
+        <option class="priority" value='red'>High</option>
+        <option class="priority" value='yellow'>Medium</option>
+        <option class="priority" value='green'>Low</option>
+      </select>
       <input type="submit" value="Add">
     </form>
 
